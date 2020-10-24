@@ -1,0 +1,67 @@
+body {
+  background-image: url("../img/fondo.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  height: 100vh;
+  color: white;
+}
+
+.header {
+  background-image: url("../img/desktop_1.jpg");
+  background-size: cover;
+  height: 100vh;
+}
+
+header > .container > .row {
+  height: 100vh;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+}
+
+.navbar {
+  background-color: rgba(0, 0, 0, 0.7);
+}
+
+section {
+  background: rgba(0, 0, 0, 0.8);
+  margin-top: 15px;
+  padding-bottom: 15px;
+}
+
+section > h5 {
+  border-top: 15px;
+}
+
+.barskill {
+  background: #ff914d;
+}
+
+.contact {
+  align-items: center;
+  margin: 25px;
+  border-radius: 10px;
+  background: rgba(255, 255, 255, 0.1);
+}
+
+.icon-box {
+  display: flex;
+  align-items: center;
+  padding: 20px;
+  background: rgba(255, 255, 255, 0.08);
+}
+
+.icon-box h4 {
+  padding-left: 15px;
+}
+
+.icono {
+  color: #ff914d;
+}
+
+.footer {
+  background: rgba(0, 0, 0, 0.9);
+  height: 220px;
+  padding-top: 15px;
+}
