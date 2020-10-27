@@ -34,8 +34,12 @@ section > h5 {
   border-top: 15px;
 }
 
-.barskill {
-  background: #ff914d;
+.card {
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+.btn {
+  color: orange;
 }
 
 .contact {
@@ -54,7 +58,7 @@ section > h5 {
   background: rgba(255, 255, 255, 0.08);
 }
 
-.icon-box h4 {
+.icon-box > h4 {
   padding-left: 15px;
 }
 
