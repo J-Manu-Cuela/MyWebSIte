@@ -38,6 +38,17 @@ section > h5 {
   background-color: rgba(255, 255, 255, 0.1);
 }
 
+.carousel-indicators li {
+  background-color: black;
+}
+.carousel-inner {
+  height: 95vh;
+}
+
+.carousel-inner img {
+  height: 100vh;
+}
+
 .btn {
   color: orange;
 }
