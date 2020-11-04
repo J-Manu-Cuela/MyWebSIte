@@ -30,8 +30,32 @@ section {
   padding-bottom: 15px;
 }
 
-section > h5 {
-  border-top: 15px;
+h5 {
+  padding-top: 8px;
+}
+
+.card-body .row .col-2 {
+  margin-left: 10px;
+}
+
+.card-body .row .col-12 {
+  margin-left: 15px;
+  display: flex;
+  margin-bottom: 8px;
+  justify-content: space-around;
+  padding-left: 25vw;
+  padding-right: 25vw;
+}
+.card-body .row .col-12 p {
+  margin-left: 25px;
+}
+.vscicon {
+  width: 45px;
+  height: 45px;
+}
+
+i {
+  color: orange;
 }
 
 .card {
