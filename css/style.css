@@ -1,3 +1,4 @@
+/*Start General*/
 body {
   background-image: url("../img/fondo.jpg");
   background-repeat: no-repeat;
@@ -7,6 +8,18 @@ body {
   color: white;
 }
 
+section {
+  background: rgba(0, 0, 0, 0.8);
+  margin-top: 15px;
+  padding-bottom: 15px;
+}
+
+h5 {
+  padding-top: 8px;
+}
+/*End General*/
+
+/*Start Header*/
 .header {
   background-image: url("../img/desktop_1.jpg");
   background-size: cover;
@@ -23,17 +36,9 @@ header > .container > .row {
 .navbar {
   background-color: rgba(0, 0, 0, 0.7);
 }
+/*End Header*/
 
-section {
-  background: rgba(0, 0, 0, 0.8);
-  margin-top: 15px;
-  padding-bottom: 15px;
-}
-
-h5 {
-  padding-top: 8px;
-}
-
+/*Start About*/
 .card-body .row .col-2 {
   margin-left: 10px;
 }
@@ -61,7 +66,9 @@ i {
 .card {
   background-color: rgba(255, 255, 255, 0.1);
 }
+/*End About*/
 
+/*Start Courses*/
 .carousel-indicators li {
   background-color: black;
 }
@@ -72,7 +79,9 @@ i {
 .carousel-inner img {
   height: 100vh;
 }
+/*End Courses*/
 
+/*Start Contact*/
 .btn {
   color: orange;
 }
@@ -107,9 +116,12 @@ i {
   color: black;
   background-color: rgba(255, 255, 255, 0.5);
 }
+/*End Contact*/
 
+/*Start Footer*/
 .footer {
   background: rgba(0, 0, 0, 0.9);
   height: 220px;
   padding-top: 15px;
 }
+/*End Footer*/
